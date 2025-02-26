@@ -11,7 +11,7 @@
 //     >
 //       <img
 //         className={'w-full rounded-lg aspect-square bg-cover'}
-//         src={`https://hylab.pptik.id/data/raw_data/${item.file_name}`}
+//         src={`https://image-view.sta.my.id/data/${item.file_name}`}
 //         alt={item.file_name}
 //       />
 //       <p className={'font-bold text-xl m-2'}>{item.name}</p>
@@ -57,7 +57,7 @@ export function CardUser(item: User, onClick: any) {
     >
       <img
         className={'w-full rounded-lg aspect-square bg-cover'}
-        src={`https://hylab.pptik.id/data/raw_data/${item.file_name}`}
+        src={`https://image-view.sta.my.id/data/${item.file_name}`}
         alt={item.file_name}
       />
       <p className={'font-bold text-xl m-2 text-center'}>{item.name}</p>

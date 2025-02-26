@@ -86,7 +86,7 @@ const HistoryScreen: React.FC = () => {
         {logs.map((log) => (
           <div key={log._id} className="relative">
             <img
-              src={`https://hylab.pptik.id/data/raw_data/${log.value}`}
+              src={`https://image-view.sta.my.id/data/${log.value}`}
               alt={log.value}
               className="w-full h-auto rounded-lg shadow-lg cursor-pointer transform transition-transform hover:scale-105"
             />

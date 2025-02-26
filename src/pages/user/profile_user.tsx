@@ -27,7 +27,7 @@ function ProfileUserComponent({ id }: any) {
               <div className="w-64 bg-gray-500 rounded-lg">
                 <img
                   className="h-full w-full aspect-square rounded-lg bg-cover"
-                  src={`https://hylab.pptik.id/data/raw_data/${
+                  src={`https://image-view.sta.my.id/data/${
                     state?.data && state.data.data.file_name
                   }`}
                   alt=""

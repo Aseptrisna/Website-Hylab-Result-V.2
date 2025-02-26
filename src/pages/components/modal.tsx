@@ -21,7 +21,7 @@ const Modal: React.FC<ModalProps> = ({ imageUrl, onClose }) => {
           </button>
         </div>
         <div className="p-4">
-          <img src={`https://hylab.pptik.id/data/raw_data/${imageUrl}`} alt="Modal Image" className="w-full h-auto" />
+          <img src={`https://image-view.sta.my.id/data/${imageUrl}`} alt="Modal Image" className="w-full h-auto" />
         </div>
       </div>
     </div>
